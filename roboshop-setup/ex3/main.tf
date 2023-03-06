@@ -32,3 +32,6 @@ variable "instances" {
      
     
 }
+output "ec2" {
+    value = aws_instances.instances
+}
