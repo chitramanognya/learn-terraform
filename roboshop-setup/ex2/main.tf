@@ -10,5 +10,5 @@ resource "aws_instance" "frontend" {
     count = 5
     ami                   = data.aws_ami.ami.image_id
     instance_type         = "t3.micro"
-    vpc_security_group_ids=["sg-00710f89f3810d79e"]
+    vpc_security_group_ids = ["sg-00710f89f3810d79e"]
 }
