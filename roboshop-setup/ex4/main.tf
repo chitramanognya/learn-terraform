@@ -6,6 +6,10 @@ module "ec2" {
     
 }
 
+module "sg" {
+    source = "./sg"
+}
+
 
 variable "instances" {
     default = {
