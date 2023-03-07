@@ -25,6 +25,6 @@ resource "aws_security_group" "allow_tls" {
 }
 
 
-output "sg" {
-  value aws_security_group.allow_tls.id
+output "sg_id" {
+  value = aws_security_group.allow_tls.id
 }
