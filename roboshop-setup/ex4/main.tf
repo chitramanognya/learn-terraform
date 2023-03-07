@@ -6,8 +6,8 @@ module "ec2" {
     sg_id        =  module.sg.sg_id       
 }
 
-module "sg_id" {
-    source = "./sg_id"
+module "sg" {
+    source = "./sg"
 }
 
 
