@@ -6,7 +6,7 @@ resource "aws_instance" "test" {
 variable "instance_type" {}
 
 
-variable "create_instances" {
+variable "create_instance" {
 }
 
 
